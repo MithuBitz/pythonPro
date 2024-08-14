@@ -1,0 +1,5 @@
+# Decorator in Python
+
+- Decorator are basically like a toll gate where we can pass any function and do something we want to that function. Syntex of it is just after @ put the name of the function which you want as a decorator function.
+
+- Basic syntex of decorator in python is, we first need a function which we want to act as a decorator. in that function we give a function as a parameter or argument and inside of the function we declare a inner wrapper function and parameter as a *args and **kwargs and then return the function which is include as a parameter on outer function with the *args and **kwargs as a parameter and then return the inner function. and this is what a decorator function is written. Whenever we can pass that decorator inside any function just declare the decorator function name with a "@" at start. Add it before the declaration of the function which you want to pass through decorator
