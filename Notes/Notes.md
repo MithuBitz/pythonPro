@@ -39,3 +39,17 @@ If "x == y" then it check the value of x and y are same or not, and if "x is y" 
 
 - repr() : repr is a built in python function return the printable representation of specify object as string.
 ![Repr](../Screenshots/repr.png)
+
+- Enumarator : Enumarator in python add a counter to an iterable returns it in the form of an enumerating object. This enumerated object can then be used directly for loops or converted into a list of tuples using the list() function. 
+  
+    ![Enumerator](../Screenshots/enumerator.png)
+
+
+- open() method: open() method actually open a file but we can do many things with it by useing some modes. there are many  modes in open() like 'w' which is stands for write mode if you write open method like this open('<file_name with extenstion>', 'w') then it will create a new file as the file_name if it was not exist befor. so we need to be causious to use 'w' mode in open() suppose if a file already exist and someone already start to modify with 'w' mode and at the same time you also trying to do so it cause some error. To prevent this we use try/catch block.
+ 
+    ![OpenMethod1](../Screenshots/openMode1.png)
+
+Or there is a simple way to use write mode in open method:
+
+![OpenMethod2](../Screenshots/openMode2.png)
+    
