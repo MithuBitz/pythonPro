@@ -52,4 +52,19 @@ If "x == y" then it check the value of x and y are same or not, and if "x is y" 
 Or there is a simple way to use write mode in open method:
 
 ![OpenMethod2](../Screenshots/openMode2.png)
+
+- **Sqlite3** : It is very easy to use sqlite in python. Its a very basic database to work with by useing python. Some of sqlite code syntex are:
+    > 1.  First we must have to import the sqlite3 by: 
+    <br>
+        ``` import sqlite3 ```
     
+    > 2. We need to connect with the database file by:
+    <br>
+        ``` connection = sqlite3.connection("<file_name>")```
+
+    > 3. Create a cursor to doing all neccessary action on the db:
+    <br>
+        ``` cursor = connection.cursor() ```
+    
+    > 4. Execute all CRUD by useing the cursor onto the db:
+        ``` cur.execute("SELECT * FROM videos") ```
