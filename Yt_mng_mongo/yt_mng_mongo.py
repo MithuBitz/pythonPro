@@ -4,7 +4,7 @@ from bson import ObjectId
 # import pymongo 
 # client = pymongo.MongoClient("mongodb+srv://mithupython:mtihu12345@mitpyth.neh4v.mongodb.net/")
 
-client = MongoClient("mongodb+srv://mithupython:mtihu12345@mitpyth.neh4v.mongodb.net/")
+client = MongoClient("mongodb+srv://<usrname>:<pass>@mitpyth.neh4v.mongodb.net/")
 
 db = client["ytmaneger"] #create a db in mongo as ytmaneger
 video_collection = db["videos"] # create a list as videos in ytmangeger
