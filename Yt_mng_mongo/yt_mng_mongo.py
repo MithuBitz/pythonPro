@@ -2,7 +2,7 @@ from pymongo import MongoClient #Specific import
 from bson import ObjectId
 
 # import pymongo 
-# client = pymongo.MongoClient("mongodb+srv://mithupython:mtihu12345@mitpyth.neh4v.mongodb.net/")
+# client = pymongo.MongoClient("mongodb+srv://<username>:<pass>@mitpyth.neh4v.mongodb.net/")
 
 client = MongoClient("mongodb+srv://<usrname>:<pass>@mitpyth.neh4v.mongodb.net/")
 
